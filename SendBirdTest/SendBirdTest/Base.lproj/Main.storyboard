@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22155" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="lUK-BM-nvo">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22131"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="SendBirdTest" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IMG_0172" translatesAutoresizingMaskIntoConstraints="NO" id="inX-5t-ORr">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="724.33333333333337"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IMG_0173" translatesAutoresizingMaskIntoConstraints="NO" id="B5F-dX-pp7">
+                                <rect key="frame" x="250" y="103" width="133" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="a9F-Pn-3tA"/>
+                                </constraints>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="40" translatesAutoresizingMaskIntoConstraints="NO" id="tSz-uw-hYX">
+                                <rect key="frame" x="59" y="620.33333333333337" width="275" height="65"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rS2-tI-Vis">
+                                        <rect key="frame" x="0.0" y="0.0" width="65" height="65"/>
+                                        <color key="tintColor" systemColor="systemRedColor"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" cornerStyle="capsule">
+                                            <imageReference key="image" image="phone.down.fill" catalog="system" symbolScale="large"/>
+                                            <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </buttonConfiguration>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EoA-HC-ZDb">
+                                        <rect key="frame" x="105" y="0.0" width="65" height="65"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" cornerStyle="capsule">
+                                            <imageReference key="image" image="video.fill" catalog="system" symbolScale="large"/>
+                                            <color key="baseForegroundColor" systemColor="systemTealColor"/>
+                                        </buttonConfiguration>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DY3-cE-nUq">
+                                        <rect key="frame" x="210" y="0.0" width="65" height="65"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="DY3-cE-nUq" secondAttribute="height" multiplier="1:1" id="YKt-uw-QW7"/>
+                                        </constraints>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" cornerStyle="capsule">
+                                            <imageReference key="image" image="mic.fill" catalog="system" symbolScale="large"/>
+                                            <color key="baseForegroundColor" systemColor="systemTealColor"/>
+                                        </buttonConfiguration>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="efv-5o-pj5">
+                                <rect key="frame" x="0.0" y="724.33333333333337" width="393" height="93.666666666666629"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dr. Cesar Guadarrama" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bPO-Rt-HhA">
+                                        <rect key="frame" x="20" y="0.0" width="237" height="93.666666666666671"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                        <color key="textColor" systemColor="systemGrayColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uzC-uY-UaX">
+                                        <rect key="frame" x="293" y="22.333333333333254" width="50" height="48.666666666666657"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="50" id="IFP-tc-TuG"/>
+                                            <constraint firstAttribute="width" secondItem="uzC-uY-UaX" secondAttribute="height" multiplier="35:34" id="xbT-6Q-Kda"/>
+                                        </constraints>
+                                        <color key="tintColor" systemColor="systemPurpleColor"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" image="message.fill" catalog="system" cornerStyle="capsule"/>
+                                        <connections>
+                                            <action selector="chatButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8xB-7z-Moy"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="bPO-Rt-HhA" firstAttribute="leading" secondItem="efv-5o-pj5" secondAttribute="leading" constant="20" id="Cd0-cb-mOs"/>
+                                    <constraint firstAttribute="bottom" secondItem="bPO-Rt-HhA" secondAttribute="bottom" id="ND7-gL-Aye"/>
+                                    <constraint firstItem="bPO-Rt-HhA" firstAttribute="top" secondItem="efv-5o-pj5" secondAttribute="top" id="UGw-KL-osf"/>
+                                    <constraint firstAttribute="trailing" secondItem="uzC-uY-UaX" secondAttribute="trailing" constant="50" id="xmL-MS-JCr"/>
+                                    <constraint firstItem="uzC-uY-UaX" firstAttribute="centerY" secondItem="efv-5o-pj5" secondAttribute="centerY" id="xnT-kh-zyA"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="efv-5o-pj5" firstAttribute="top" secondItem="inX-5t-ORr" secondAttribute="bottom" id="4KG-xv-qlG"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="efv-5o-pj5" secondAttribute="trailing" id="7ba-w3-zbn"/>
+                            <constraint firstItem="B5F-dX-pp7" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="8EJ-P4-cwC"/>
+                            <constraint firstItem="tSz-uw-hYX" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.7" id="8b9-C4-bGL"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="efv-5o-pj5" secondAttribute="bottom" id="APw-RQ-Ofi"/>
+                            <constraint firstItem="inX-5t-ORr" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.85" id="CKx-6e-sdj"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="B5F-dX-pp7" secondAttribute="trailing" constant="10" id="GD6-1k-fq5"/>
+                            <constraint firstItem="B5F-dX-pp7" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="250" id="J7R-6j-sLf"/>
+                            <constraint firstItem="efv-5o-pj5" firstAttribute="top" secondItem="tSz-uw-hYX" secondAttribute="bottom" constant="39.000000000000114" id="K7R-QV-uK8"/>
+                            <constraint firstItem="inX-5t-ORr" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="RZF-qw-7bI"/>
+                            <constraint firstItem="efv-5o-pj5" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Xei-mG-sas"/>
+                            <constraint firstItem="tSz-uw-hYX" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="ZJY-b4-7gK"/>
+                            <constraint firstItem="inX-5t-ORr" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="rIx-WE-hnU"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="inX-5t-ORr" secondAttribute="trailing" id="zYi-aR-dL2"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="30u-F8-gNu"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="973.28244274809151" y="-2.1126760563380285"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="ALg-bB-kto">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="lUK-BM-nvo" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="3j8-yQ-o17">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="mO0-mp-8ht"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="f3t-12-hZ6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="46.564885496183201" y="-2.1126760563380285"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="IMG_0172" width="2268" height="4032"/>
+        <image name="IMG_0173" width="2268" height="4032"/>
+        <image name="message.fill" catalog="system" width="128" height="114"/>
+        <image name="mic.fill" catalog="system" width="110" height="128"/>
+        <image name="phone.down.fill" catalog="system" width="128" height="55"/>
+        <image name="video.fill" catalog="system" width="128" height="81"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGrayColor">
+            <color red="0.5568627451" green="0.5568627451" blue="0.57647058819999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemPurpleColor">
+            <color red="0.68627450980000004" green="0.32156862749999998" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemTealColor">
+            <color red="0.18823529410000001" green="0.69019607839999997" blue="0.78039215689999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
